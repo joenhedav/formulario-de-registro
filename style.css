@@ -1,1 +1,8 @@
+@font-face {
+  font-family: "Nurse Bold";
+  src: url("font/Norse-Bold.otf");
+}
 
+h1 {
+  font-family: "Nurse Bold";
+}
