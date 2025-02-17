@@ -11,26 +11,12 @@ body {
 
 .container {
   display: flex;
+  width: 100vw;
+  height: 100vh;
 }
 
 .bg-img img {
-  display: flex;
+  display: block;
   height: 100vh;
-  width: 70vh;
-}
-
-.container > .form-container {
-  width: 42%;
-  padding: 48px 0 0 32px;
-}
-
-.container > .form-container > p {
-  font-size: 18px;
-  font-family: arial;
-  font-weight: bold;
-  margin: 0;
-}
-
-.container > .form-container p:nth-of-type(3) {
-  margin-top: 24px;
+  width: 35vw; 
 }
